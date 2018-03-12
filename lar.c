@@ -1,8 +1,8 @@
 #include<stdio.h>
 #include<conio.h>
-int main()
+void main()
 {
-int n,j,m[100],temp=0,a=0,i,b=0;
+int n,j,m[100],temp=0,x=0,i,y=0;
 scanf("%d",&n);
 for(i=0;i<n;i++)
 {
@@ -32,7 +32,7 @@ m[j+1]=temp;
 }
 }
 }
-b=a;
+x=y;
 for(i=0;i<(n-(a-1));i++)
 {
 for(j=i+1;j<(n-a);j++)
@@ -45,7 +45,7 @@ m[j]=temp;
 }
 }}
   printf("Largest number:");
-  for(i=0;i<(n-a);i++)
+  for(i=0;i<(n-x);i++)
 {
 printf("%d\t\n",m[i]);
   }
