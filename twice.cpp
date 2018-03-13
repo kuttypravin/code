@@ -1,19 +1,19 @@
 #include <iostream>
 using namespace std;
  
-int find(int ar[], int ar_size)
+int find(int arr[],int arr_size)
 {
     
-     int res = ar[0];
-     for (int i=1; i < ar_size; i++)
-        res = res ^ ar[i];
+     int res = arr[0];
+     for (int i=1; i<arr_size; i++)
+        res = res^arr[i];
      return res;
 }
  
 int main()
 {
-     int ar[] = {2, 3, 5, 4, 5, 3, 4};
-     int n = sizeof(ar)/sizeof(ar[0]);
-     cout << "Element occurring once is " << find(ar, n);
+     int arr[] = {2, 3, 5, 4, 5, 3, 4};
+     int m= sizeof(arr)/sizeof(arr[0]);
+     cout << "Element occurring once is " << find(arr, m);
      return 0;
 }
