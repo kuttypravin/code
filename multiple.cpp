@@ -2,12 +2,13 @@
 using namespace std;
 int main()
 {
-   int i,n,sum=0;
-   scanf("%d",&n);
+   int n,i,sum=0;
+   cin>>n;
    for(i=1;i<=5;i++)
    {
-     sum=i*n;
-     printf("%d",sum);
+       sum=i*n;
+      cout<<sum<<" ";
    }
- return 0;
+   return 0;
 }
+
