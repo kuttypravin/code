@@ -6,8 +6,8 @@ int n,a,b,c,i;
 cin>>n;
 a=0;
 b=1;
-cout<<a<<" "<<b<<" ";
-for(i=1;i<=n;i++)
+cout<<b<<" ";
+for(i=1;i<n;i++)
 {
 c=a+b;
 a=b;
