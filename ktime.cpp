@@ -8,7 +8,7 @@ cin>>s;
 cin>>k;
 for(i=0;i<k;i++)
 {
-    cout<<s<<" ";
+    cout<<s<<endl;
 }
 return 0;
 }
